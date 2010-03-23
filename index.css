@@ -1,5 +1,6 @@
 body {
 	background:#ffffff;
+	font-family: Georgia
 }
 
 #site-logo{
@@ -15,7 +16,8 @@ body {
 	font-weight: bold;
 }
 #header{
-	background: #CCCCCC;
+	background-image:url('gradient.png');
+	background-repeat:repeat-x;
 	margin-left:-8px;
 	margin-right:-8px;
 	margin-top:0px;
@@ -24,6 +26,7 @@ body {
 	border-top:1px solid #CCCCCC;	
 	border-bottom:1px solid #CCCCCC;
 	padding: 20px;
+	font-family: Helvetica, sans-serif
 }
 
 #page{
