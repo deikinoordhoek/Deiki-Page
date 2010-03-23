@@ -1,0 +1,70 @@
+body {
+	background:#ffffff;
+}
+
+#site-logo{
+	height:74px;
+	width:200px;	
+	background-image:url('victor.png');
+	background-repeat:no-repeat;
+	margin-left:5%;
+	padding-left:80px;
+	padding-top:5px;
+	font-family: Verdana;
+	font-size: large;
+	font-weight: bold;
+}
+#header{
+	background: #CCCCCC;
+	margin-left:-8px;
+	margin-right:-8px;
+	margin-top:0px;
+	font-size:40pt;
+	text-align: center;	
+	border-top:1px solid #CCCCCC;	
+	border-bottom:1px solid #CCCCCC;
+	padding: 20px;
+}
+
+#page{
+	text-align: left;
+	background: #EEEEEE;
+	width:70%;
+	margin-left:5%;
+	padding-top:10px;
+	padding-left:10px;
+	min-height:800px;
+	border-left:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+}
+
+#sidebar{
+	position: absolute;
+	background:#FAFAFA;	
+	/*border-left:1px solid #CCCCCC;*/
+	border-bottom: 1px solid #cccccc;	
+	padding:10px;	
+	width: 22.5%;
+	min-height:590px;
+	margin-left:75%;
+}
+
+#footer{
+	border-left:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;		
+	border-right:1px solid #cccccc;	
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;	
+	width:70%;
+	margin-left:5%;
+	/*height:100px;*/
+	text-align:center;
+	color:#999999;
+	font-size:small;
+}
+#logo-light{
+	color: #999999;
+	font-size:small;
+}
