@@ -1,6 +1,9 @@
 body {
-	background:#ffffff;
+	background:#333333;
 	font-family: Georgia
+}
+bold{
+	font-weight:bold;
 }
 .info{
 	border-top:1px solid #DDDDDD;
@@ -15,71 +18,87 @@ body {
 	padding-bottom:10px;
 	width:66%;
 }
+#site-header{
+	height:90px;
+	margin-left:-8px;
+	margin-right:-8px;
+	margin-top:-8px;
+	background-image:url('gradient2.png');
+	background-repeat:repeat-x;
+
+}
 #site-logo{
-	height:74px;
+	height:90px;
 	width:200px;	
 	background-image:url('victor.png');
 	background-repeat:no-repeat;
 	margin-left:5%;
-	padding-left:80px;
-	padding-top:5px;
+	padding-left:90px;
+	padding-top:10px;
 	font-family: Verdana;
 	font-size: large;
 	font-weight: bold;
+	color:#EEEEEE;
+}
+#logo-light{
+	color: #BBBBBB;
+	font-size:small;
 }
 #header{
 	background-image:url('gradient.png');
 	background-repeat:repeat-x;
+	height:	105px; /* height + paddding-top must be 120? */
+	padding-top: 15px;
 	margin-left:-8px;
 	margin-right:-8px;
-	margin-top:0px;
-	font-size:40pt;
+	font-size:20pt;
 	text-align: center;	
-	border-top:1px solid #CCCCCC;	
-	border-bottom:1px solid #CCCCCC;
-	padding: 20px;
-	font-family: Helvetica, sans-serif
+	border-top:1px solid #000000;	
+
+	font-family: sans-serif
 }
 
 #page{
 	text-align: left;
 	background: #EEEEEE;
-	width:70%;
+	width:65%;
 	margin-left:5%;
+	margin-top:-60px;	
 	padding-top:10px;
 	padding-left:10px;
+	padding-right:10px;
 	min-height:800px;
-	border-left:1px solid #cccccc;
-	border-bottom:1px solid #cccccc;
-	border-right:1px solid #cccccc;
+	border-left:1px solid #000000;
+	border-bottom:1px solid #000000;
+	border-right:1px solid #000000;
 }
 
 #sidebar{
 	position: absolute;
 	background:#FAFAFA;	
-	/*border-left:1px solid #CCCCCC;*/
-	border-bottom: 1px solid #cccccc;	
-	padding:10px;	
-	width: 22.5%;
+	/*border-right:1px solid #000000;*/
+	border-bottom: 1px solid #000000;	
+	padding:16px;	
+	width:25%;	
 	min-height:590px;
-	margin-left:75%;
+	margin-left:71%;
+	margin-top:-60px;
 }
 
 #footer{
-	border-left:1px solid #cccccc;
-	border-bottom:1px solid #cccccc;		
-	border-right:1px solid #cccccc;	
+	border-left:1px solid #000000;
+	border-bottom:1px solid #000000;		
+	border-right:1px solid #000000;	
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:10px;	
-	width:70%;
+	padding-right:10px;
+	width:65%;
 	margin-left:5%;
 	/*height:100px;*/
 	text-align:center;
 	color:#999999;
+	background: #ffffff;
 	font-size:small;
 }
-#logo-light{
-	color: #999999;
-	font-size:small;
-}
+
