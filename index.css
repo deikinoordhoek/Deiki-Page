@@ -2,7 +2,19 @@ body {
 	background:#ffffff;
 	font-family: Georgia
 }
-
+.info{
+	border-top:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+	border-left:1px solid #DDDDDD;
+	border-right:1px solid #DDDDDD;	
+	background:#FFFFFF;
+	margin-top:20px;	
+	margin-bottom:20px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:66%;
+}
 #site-logo{
 	height:74px;
 	width:200px;	
