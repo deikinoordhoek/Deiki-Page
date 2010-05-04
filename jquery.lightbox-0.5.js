@@ -186,8 +186,31 @@
 			var objImagePreloader = new Image();
 			objImagePreloader.onload = function() {
 				$('#lightbox-image').attr('src',settings.imageArray[settings.activeImage][0]);
+				newWidth = objImagePreloader.width;
+        	                newHeight = objImagePreloader.height;
+				if ( objImagePreloader.width > 960 ) {
+        	                	  t1 = objImagePreloader.width;
+        	                	  t2 = objImagePreloader.height;
+        	                	  newWidth = t1 * (960 / objImagePreloader.width);
+        	                	  newHeight = t2 * (960 / t1);
+					  if ( newHeight > 400 ) {
+					  	t1 = newHeight;
+                        		  	t2 = newWidth;
+                        		  	newHeight = t1 * (400 / newHeight);
+                        		  	newWidth = t2 * (400 / t1);
+					  };
+        	                };
+	                        if ( objImagePreloader.height > 400 ) {
+					t1 = objImagePreloader.height;
+                        		t2 = objImagePreloader.width;
+                        		newHeight = t1 * (400 / objImagePreloader.height);
+                        		newWidth = t2 * (400 / t1);
+                    		};
+                                $('#lightbox-image').attr('width', newWidth);
+				$('#lightbox-image').attr('height', newHeight);
+ 				_resize_container_image_box(newWidth, newHeight);
 				// Perfomance an effect in the image container resizing it
-				_resize_container_image_box(objImagePreloader.width,objImagePreloader.height);
+				
 				//	clear onLoad, IE behaves irratically with animated gifs otherwise
 				objImagePreloader.onload=function(){};
 			};
