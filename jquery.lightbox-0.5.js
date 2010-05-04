@@ -193,18 +193,18 @@
         	                	  t2 = objImagePreloader.height;
         	                	  newWidth = t1 * (960 / objImagePreloader.width);
         	                	  newHeight = t2 * (960 / t1);
-					  if ( newHeight > 400 ) {
+					  if ( newHeight > 500 ) {
 					  	t1 = newHeight;
                         		  	t2 = newWidth;
-                        		  	newHeight = t1 * (400 / newHeight);
-                        		  	newWidth = t2 * (400 / t1);
+                        		  	newHeight = t1 * (500 / newHeight);
+                        		  	newWidth = t2 * (500 / t1);
 					  };
         	                };
-	                        if ( objImagePreloader.height > 400 ) {
+	                        if ( objImagePreloader.height > 500 ) {
 					t1 = objImagePreloader.height;
                         		t2 = objImagePreloader.width;
-                        		newHeight = t1 * (400 / objImagePreloader.height);
-                        		newWidth = t2 * (400 / t1);
+                        		newHeight = t1 * (500 / objImagePreloader.height);
+                        		newWidth = t2 * (500 / t1);
                     		};
                                 $('#lightbox-image').attr('width', newWidth);
 				$('#lightbox-image').attr('height', newHeight);
