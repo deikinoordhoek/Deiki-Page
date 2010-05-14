@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Galleria Fullscreen Theme Demo 02</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="../src/galleria.js"></script>
+    </head>
+<body>
+    <div id="galleria"></div>
+    <script>
+    Galleria.loadTheme('../src/themes/fullscreen/galleria.fullscreen.js');
+    Galleria.flickr.setOptions({
+        max: 20,
+        use_original: true
+    }).search('fddd7bc223fe37295faace93a4f2d8fc', {
+        tags: 'lomo',
+        sort: 'relevance',
+        max: 60
+    }, function(data) {
+        $('#galleria').galleria({
+            data_source: data,
+            image_crop: false,
+            frame_color: '#000',
+            transition: 'slide',
+            hide_dock: false,
+            extend: function() {
+                this.$('info,counter').hide();
+            }
+        });
+    });
+    </script>
+    </body>
+</html>
