@@ -15,7 +15,13 @@ body{
 .section-content{
     margin-left: 60px;
     width: 860px;
-    background-color: #F7F7F7
+    /*background-color: #F7F7F7*/
+    background-image: url("ubuntu_grid_dots_background.png");
+    -moz-border-radius-topleft:7px;
+    -moz-border-radius-topright:7px;
+    -webkit-border-top-right-radius: 7px;
+    -webkit-border-top-left-radius: 7px;
+    
 
 }
 
@@ -62,7 +68,7 @@ body{
     font-weight: bold;
     margin-top: 20px;
     /*border: 1px solid rgba(119,41,83, .05);*/
-    background-image: url("ubuntu_grid_dots.png");
+    /*background-image: url("ubuntu_grid_dots.png");*/
     -webkit-border-radius: 10px;
     padding: 10px;
     width: 231px;
