@@ -7,7 +7,7 @@
 }
 body{
     color: #444;
-    font-family: Ubuntu-BetaRegular;
+    font-family: "Ubuntu-BetaRegular";
     font-weight: light;
     font-size: 13px;
     background: url("ubuntu_grid_dots.png");
@@ -67,8 +67,7 @@ body{
     color: #DD4814;
     font-weight: bold;
     margin-top: 20px;
-    /*border: 1px solid rgba(119,41,83, .05);*/
-    /*background-image: url("ubuntu_grid_dots.png");*/
+
     -webkit-border-radius: 10px;
     padding: 10px;
     width: 231px;
@@ -127,21 +126,27 @@ body{
 }
 .column-1{
     float: left;
-    background-color: #F7F7F7
-    margin-right:30px;
-    padding-right: 30px;
-    margin-left:15px;
-    padding-left: 15px;
 
 }
 .column-2{
     float: left;
-    background-color: #F7F7F7
-    margin-right:30px;
-    padding-right: 30px;
 }
 .column-3{
     float: left;
-    background-color: #F7F7F7
 
+}
+
+.software-center-header-1{
+    color: #DD4814;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.software-center-content-1{
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px !important;
+    width: 400px;
 }
