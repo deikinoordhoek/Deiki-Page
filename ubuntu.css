@@ -151,8 +151,9 @@ body{
 }
 
 #software-center-icon{
-    background: url("softwarecenter.png");
+    background: url("css_sprites_1.png");
     background-repeat: no-repeat;
+    background-position: 0px -214px;
     margin-top: -6px;
     margin-right: 10px;
     width: 48px;
@@ -161,8 +162,9 @@ body{
 }
 
 #internet-icon{
-    background: url("internet.png");
+    background: url("css_sprites_1.png");
     background-repeat: no-repeat;
+    background-position: 0px -10px;
     margin-top: -6px;
     margin-right: 10px;
     width: 48px;
@@ -170,8 +172,9 @@ body{
     float: left;
 }
 #firefox-icon{
-    background: url("firefox.png");
+    background: url("css_sprites_1.png");
     background-repeat: no-repeat;
+    background-position: 0px -78px;
     margin-top: -6px;
     margin-right: 10px;
     width: 48px;
@@ -179,8 +182,9 @@ body{
     float: left;
 }
 #music-icon{
-    background: url("emblem-sound.png");
+    background: url("css_sprites_1.png");
     background-repeat: no-repeat;
+    background-position: 0px -146px;
     margin-top: -6px;
     margin-right: 10px;
     width: 48px;
