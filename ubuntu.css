@@ -1,13 +1,13 @@
 @font-face {
-	font-family: 'Ubuntu-BetaRegular';
-	src: url('ubuntu-regular-beta-webfont.eot');
-	src: local('☺'), url('ubuntu-regular-beta-webfont.woff') format('woff'), url('ubuntu-regular-beta-webfont.ttf') format('truetype'), url('ubuntu-regular-beta-webfont.svg#webfontHEg5BJUj') format('svg');
+	font-family: 'UbuntuBetaRegular';
+	src: url('ubuntubetanew-webfont.eot');
+	src: local('☺'), url('ubuntubetanew-webfont.woff') format('woff'), url('ubuntubetanew-webfont.ttf') format('truetype'), url('ubuntubetanew-webfont.svg#webfontryddfSTj') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 body{
     color: #444;
-    font-family: "Ubuntu-BetaRegular";
+    font-family: "UbuntuBetaRegular";
     font-weight: light;
     font-size: 13px;
     background: url("ubuntu_grid_dots.png");
