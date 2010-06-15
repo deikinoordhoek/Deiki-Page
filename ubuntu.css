@@ -15,7 +15,6 @@ body{
 .section-content{
     margin-left: 60px;
     width: 860px;
-    /*background-color: #F7F7F7*/
     background-image: url("ubuntu_grid_dots_background.png");
     -moz-border-radius-topleft:7px;
     -moz-border-radius-topright:7px;
@@ -149,4 +148,42 @@ body{
     margin-bottom: 20px;
     margin-right: 10px !important;
     width: 400px;
+}
+
+#software-center-icon{
+    background: url("softwarecenter.png");
+    background-repeat: no-repeat;
+    margin-top: -6px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+#internet-icon{
+    background: url("internet.png");
+    background-repeat: no-repeat;
+    margin-top: -6px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+#firefox-icon{
+    background: url("firefox.png");
+    background-repeat: no-repeat;
+    margin-top: -6px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+#music-icon{
+    background: url("emblem-sound.png");
+    background-repeat: no-repeat;
+    margin-top: -6px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    float: left;
 }
