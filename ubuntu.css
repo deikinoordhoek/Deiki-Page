@@ -24,10 +24,6 @@ body{
 
 }
 
-.icon{
-    margin-bottom: -12px;
-    margin-right: 10px;
-}
 .section-heading{
     font-size: 24pt;
     font-weight: bold;
@@ -42,15 +38,6 @@ body{
     -webkit-border-top-right-radius: 7px;
     -webkit-border-top-left-radius: 7px;
 
-}
-
-.section-description{
-    font-size: 12pt;
-    color: #333;
-    padding-left: 68px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    visibility: hidden;
 }
 
 .clear {
