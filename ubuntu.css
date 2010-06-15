@@ -15,7 +15,7 @@ body{
 .section-content{
     margin-left: 60px;
     width: 860px;
-    background-image: url("ubuntu_grid_dots_background.png");
+    background:#F7F7F7 ;
     -moz-border-radius-topleft:7px;
     -moz-border-radius-topright:7px;
     -webkit-border-top-right-radius: 7px;
@@ -23,7 +23,10 @@ body{
     
 
 }
-
+.dots-background{
+    background: url("ubuntu_grid_dots.png");
+    margin-top: -1px; /* Hide the first dot*/
+}
 .section-heading{
     font-size: 24pt;
     font-weight: bold;
@@ -66,6 +69,7 @@ body{
     -webkit-box-shadow: 0px 1px 5px #BBB;
 
     width: 200px;
+    margin: 10px;
     margin-top: 20px;
 
 
@@ -112,14 +116,12 @@ body{
 }
 .column-1{
     float: left;
-
 }
 .column-2{
     float: left;
 }
 .column-3{
     float: left;
-
 }
 
 .software-center-header-1{
