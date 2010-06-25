@@ -1,0 +1,167 @@
+@font-face {
+	font-family: 'UbuntuBetaRegular';
+	src: url('ubuntubetanew-webfont.eot');
+	src: local('☺'), url('ubuntubetanew-webfont.ttf') format('truetype'), url('ubuntubetanew-webfont.svg#webfontnebTMpsC') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@Ubuntu_Orange: #DD4814;
+@content-borders-radii: 5px;
+@item-content-color: #444;
+body{
+    color: #444;
+    font-family: "UbuntuBetaRegular";
+    font-weight: light;
+    font-size: 13px;
+    background: url('bg_dotted.png')
+
+}
+.section-content{
+    margin-left: 10px;
+    width: 960px;
+    background:#F7F7F7 ;
+    -moz-border-radius-topleft:7px;
+    -moz-border-radius-topright:7px;
+    border-radius: 0px 0px 7px 7px;
+    
+
+}
+
+.section-heading{
+    font-size: 24pt;
+    font-weight: bold;
+    color: @Ubuntu_Orange;
+    background-color: #DAD7D3;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    -moz-border-radius-topleft:7px;
+    -moz-border-radius-topright:7px;
+    -webkit-border-top-right-radius: 7px;
+    -webkit-border-top-left-radius: 7px;
+
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.item{
+    color: @Ubuntu_Orange;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 20px;
+    width: 280px;
+    line-height: 120%;
+    font-size: 14px;
+}
+.item-image{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 5px solid #772953;
+    -moz-box-shadow: 0px 1px 5px #BBB;
+    -webkit-box-shadow: 0px 1px 5px #BBB;
+
+    width: 200px;
+    margin: 10px;
+    margin-top: 20px;
+
+
+}
+.item-content{
+    font-weight: normal;
+    color: @item-content-color;
+    font-size: 14px;
+    
+}
+.header{
+    color: @Ubuntu_Orange;
+    font-size: 32pt;
+    text-align:center;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 860px;
+    
+}
+.header-subtext{
+    color: #222;
+    font-size: 20pt;
+    text-align:center;
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 860px;
+}
+.content{
+    width: 981px;
+    
+    background: url("ubuntu_grid_dots.png");
+    background-position: -1px 0px;
+    margin: auto;
+    background: #FFF;
+    border: 1px solid #EEE;
+    margin-top: -10px;
+    padding-bottom: 100px;
+    -moz-box-shadow: 0px 2px 5px #DDD;
+    -moz-border-radius-bottomleft: @content-borders-radii;
+    -moz-border-radius-bottomright: @content-borders-radii;
+    -webkit-border-bottom-right-radius: @content-borders-radii;
+    -webkit-border-bottom-left-radius: @content-borders-radii;
+    
+}
+.column-1{
+    float: left;
+}
+.column-2{
+    float: left;
+}
+.column-3{
+    float: left;
+}
+
+.software-center-header-1{
+    color: @Ubuntu_Orange;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.software-center-content-1{
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px !important;
+    width: 400px;
+}
+.sprited_icon{
+    background: url("css_sprites_1.png");
+    background-repeat: no-repeat;
+    margin-top: -6px;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+#software-center-icon{
+    .sprited_icon;
+    background-position: 0px -214px;
+}
+
+#internet-icon{
+    .sprited_icon;
+    background-position: 0px -10px;
+}
+#firefox-icon{
+    .sprited_icon;
+    background-position: 0px -78px;
+}
+#music-icon{
+    .sprited_icon;
+    background-position: 0px -146px;
+}
