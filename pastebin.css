@@ -3,7 +3,7 @@
 body
 {
 	background-image:url("http://www.ubuntu.com/sites/default/themes/ubuntu10/images/bg_dotted.png");
-	color:#6d4c07;
+	color:#dd4814;
 	font-family:arial, helvetica, sans-serif;
 	font-size:80%;
 	margin:0;
@@ -11,48 +11,25 @@ body
     width: 100%;
 }
 
-#outerColumnContainer
-{
-	border-right-color:#FFF;
-	color:#000;
-	width:100%;
-}
-
 #title
 {
-    background-image: url("http://i.imgur.com/S2WzP.png");
+    background-image: url("http://i.imgur.com/xcynE.png"); /*Change this when the image is uploaded to a permanent spot!*/
     background-repeat: no-repeat;
-    width: 399px;
-    height: 97px;
+    width: 375px;
+    height: 56px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     text-align:center;
 	font-size:0%;
     color: #fff;
-}
-
-#rightColumn,#contentColumn
-{
-	overflow:visible;
-	position:relative;
-	z-index:10;
-}
-
-#rightColumn
-{
-	width:18em;
-	margin:0 -18em 0 1px;
-}
-
-#rightColumn .inside
-{
-	font-size:100%;
 }
 
 #contentColumn
 {
 	margin-left:auto;
 	margin-right:auto;
+    margin-bottom: 20px;
 	width: 95%;
 	font-family:Verdana, arial, helvetica, sans-serif;
     -moz-box-shadow: 0px 1px 5px #bbbbbb;
@@ -72,166 +49,12 @@ table{
 	padding:0 1.5em;
 }
 
-#contentColumn,#rightColumn
+#contentColumn
 {
 	padding-top:3em;
 	padding-bottom:1em;
 }
 
-#mastWrapper
-{
-	background:url(http://media.ubuntu-nl.org/images/header-bg4.png) bottom left repeat-x #FFF;
-}
-
-#masthead
-{
-	position:relative;
-	background:url(http://media.ubuntu-nl.org/images/header-image.png) no-repeat transparent;
-	height:90px;
-}
-
-#nav
-{
-	position:absolute;
-	bottom:0;
-	right:10px;
-}
-
-#nav ul
-{
-	display:inline;
-	list-style:none;
-	margin:0;
-	padding:10px 10px 0 1px;
-}
-
-#nav li
-{
-	float:left;
-	background:url(http://media.ubuntu-nl.org/images/tab_off_ns1.png) no-repeat left top;
-	margin:0;
-	padding:0 0 0 5px;
-}
-
-#nav a
-{
-	font-size:105%;
-	display:block;
-	background:url(http://media.ubuntu-nl.org/images/tab_off_ns2.png) no-repeat right top;
-	text-decoration:none;
-	font-weight:700;
-	line-height:1.5em;
-	color:#444;
-	padding:8px 15px 0 8px;
-}
-
-#nav li:hover a
-{
-	color:#333;
-	background:url(http://media.ubuntu-nl.org/images/tab_on_ns2.png) no-repeat right top;
-}
-
-#nav li:hover
-{
-	background:url(http://media.ubuntu-nl.org/images/tab_on_ns1.png) no-repeat left top;
-	color:#000;
-}
-
-#nav #current
-{
-	background:url(http://media.ubuntu-nl.org/images/tab_on_ns1.png) no-repeat left top;
-}
-
-#nav #current a
-{
-	background:url(http://media.ubuntu-nl.org/images/tab_on_ns2.png) no-repeat right top;
-	padding-bottom:0;
-	color:#000;
-}
-
-#footWrapper
-{
-	clear:both;
-	background:url(http://media.ubuntu-nl.org/images/footer-bg.png);
-	background-repeat:repeat-x;
-	border-bottom:2px solid #583D1E;
-}
-
-#footer
-{
-	color:#5B4832;
-	position:relative;
-	text-align:center;
-	background-image:url(http://media.ubuntu-nl.org/images/footer-image2.png);
-	background-repeat:repeat-y;
-	background-position:left top;
-	padding:.3em;
-}
-
-#footer a
-{
-	color:#5B4832;
-	text-decoration:underline;
-}
-
-#rightColumn ul
-{
-	list-style:none;
-	list-style-image:none;
-	color:#696969;
-	background-color:#eae5da;
-	width:190px;
-	margin:0;
-	padding:0;
-}
-
-#rightColumn ul ul
-{
-	list-style:none;
-	background-color:#eae5da;
-	width:auto;
-	margin:0;
-	padding:0;
-}
-
-#rightColumn li
-{
-	font-size:100%;
-	margin:0 0 0 15px;
-}
-
-#rightColumn li a
-{
-	text-decoration:none;
-	color:#000;
-	font-weight:700;
-	line-height:1.5em;
-}
-
-#rightColumn li li a
-{
-	text-decoration:none;
-	color:#000;
-	font-weight:400;
-}
-
-#rightColumn li a:hover,#rightColumn #news a
-{
-	text-decoration:underline;
-	color:#000;
-}
-
-#rightColumn li.active
-{
-	background-image:url(/images/little-u.gif);
-	background-repeat:no-repeat;
-	background-position:top left;
-}
-
-#rightColumn img
-{
-	border:none;
-}
 
 .timestamp
 {
@@ -239,39 +62,13 @@ table{
 	font-size:85%;
 	clear:both;
 	font-weight:400;
-	color:#76797c;
+	color:#dd4814;
 }
 
 .timestamp a
 {
-	color:#76797c;
+	color:#dd4814;
 	text-decoration:underline;
-}
-
-.message
-{
-	background-color:#ffce7b;
-	border:1px solid orange;
-	color:#6d4c07;
-	font-size:85%;
-	font-weight:700;
-	vertical-align:middle;
-	background-image:url(/images/info_icon.gif);
-	background-repeat:no-repeat;
-	background-position:5px center;
-	margin:0 0 1em;
-	padding:0.5em 1em 0.5em 3em;
-}
-
-#news a
-{
-	color:#000;
-	text-decoration:underline;
-}
-
-.hide,.hide *
-{
-	visibility:hidden;
 }
 
 #contentColumn .inside
