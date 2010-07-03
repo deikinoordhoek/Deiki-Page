@@ -3,24 +3,17 @@
 body
 {
 	background-image:url("bg_dotted.png");
-	color:#dd4814;
 	font-family:arial, helvetica, sans-serif;
 	font-size:small;
-	margin:0;
-	padding:0;
     width: 100%;
 }
 
 #title
 {
-    background-image: url("ubuntu_logo.png"); 
-    background-repeat: no-repeat;
+    background: url("ubuntu_logo.png") no-repeat; 
     width: 375px;
     height: 56px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    text-align:center;
+    margin: 0px auto 30px auto;
 	font-size:0%;
     color: #fff;
 }
@@ -41,12 +34,9 @@ body
 }
 #pasteform table{
     margin: 0px auto;    
-    border-left: 1px solid rgb(245, 245, 245);
+    border-left: 1px solid #f5f5f;
 }
-.inside
-{
-	padding:0 1.5em;
-}
+.inside{ padding:0 1.5em; }
 
 #contentColumn
 {
@@ -54,21 +44,6 @@ body
 	padding-bottom:1em;
 }
 
-
-.timestamp
-{
-	text-align:right;
-	font-size:85%;
-	clear:both;
-	font-weight:400;
-	color:#dd4814;
-}
-
-.timestamp a
-{
-	color:#dd4814;
-	text-decoration:underline;
-}
 
 #contentColumn .inside
 {
@@ -80,14 +55,10 @@ body
 th, td
 {
 	padding:0px 0px 6px 12px;
-}
-td{
     color: #888;
 }
-label{
-    color: #dd4814;
-}
-.pturl{
+
+label, .pturl{
     color: #dd4814 !important;
 }
 h1,h2,h3,h4,h5,h6
@@ -107,32 +78,6 @@ h1
     text-align: center;
 }
 
-h2
-{
-	font-size:150%;
-}
-
-h3
-{
-	margin-top:20px;
-	margin-bottom:8px;
-	font-size:130%;
-}
-
-h4
-{
-	font-size:120%;
-}
-
-h5
-{
-	font-size:110%;
-}
-
-h6
-{
-	font-size:100%;
-}
 
 textarea
 {
@@ -176,6 +121,7 @@ div.paste div
     -moz-box-shadow: 0px 1px 5px #eee;
     -webkit-box-shadow: 0px 1px 5px #eee;
     -box-shadow: 0px 1px 5px #eee;
+	font-size:medium;
 }
 
 div.paste a
@@ -185,11 +131,4 @@ div.paste a
 	font-weight:700;
 	font-size:0.9em;
 	padding:1em;
-}
-
-td.code div.paste
-{
-	font-size:medium;
-	margin:0;
-	padding:0;
 }
