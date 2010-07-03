@@ -2,10 +2,10 @@
 @import url(http://pastebin.ubuntu.com/static/default.css);
 body
 {
-	background-image:url("http://www.ubuntu.com/sites/default/themes/ubuntu10/images/bg_dotted.png");
+	background-image:url("bg_dotted.png");
 	color:#dd4814;
 	font-family:arial, helvetica, sans-serif;
-	font-size:80%;
+	font-size:small;
 	margin:0;
 	padding:0;
     width: 100%;
@@ -13,7 +13,7 @@ body
 
 #title
 {
-    background-image: url("http://i.imgur.com/xcynE.png"); /*Change this when the image is uploaded to a permanent spot!*/
+    background-image: url("ubuntu_logo.png"); 
     background-repeat: no-repeat;
     width: 375px;
     height: 56px;
@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5,h6
 	color:#dd4814;
 	background-color:transparent;
 	font-family:Verdana, arial, helvetica, sans-serif;
-	font-size:100%;
+	font-size:medium;
 	font-weight:400;
 	padding-top:0.4em;
 	margin:0;
@@ -146,18 +146,19 @@ input
 	visibility:visible;
 	vertical-align:middle;
 }
-table{
-    table-layout: fixed;
-}
+
 select
 {
 	color:#000;
 	vertical-align:top;
 }
-
+.linenos{
+	font-size: medium;
+}
 div.paste
 {
-	font-size:110%;
+	font-size: small;
+
 	border:1px solid #ddd;
 	background-color:#eee;
     -moz-border-radius: 4px;    
@@ -188,7 +189,7 @@ div.paste a
 
 td.code div.paste
 {
-	font-size:100%;
+	font-size:medium;
 	margin:0;
 	padding:0;
 }
