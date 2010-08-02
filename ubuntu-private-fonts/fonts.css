@@ -21,19 +21,23 @@ b{
 	height: 500px;
 	background-color: white;	
 	border-radius: 5px;
+	-moz-border-radius: 5px;
 	-webkit-box-shadow: 0px 0px 10px #aaa;
+	-moz-box-shadow: 0px 0px 10px #aaa;
 }
 .header{
 	text-align: center;
 	font-size: 48px;
 	margin-top: 20px;
 	padding: 5px;
-	*background-color: #DAD7D3;
-	background: #DD4814  -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(221,74,20)),color-stop(0, rgb(189,57,17)));
+	background: #DD4814  ;
 	background-repeat: repeat-x;
 	color: white;
 	-webkit-border-top-left-radius: 5px;
 	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+
 }
 .main{
 	width: 400px;
@@ -41,9 +45,12 @@ b{
 	color: #aaa;
 	text-align: center;
 }
-
+.img1{
+	border: 0px;
+}
 .img2{
 	margin-left: 40px;
+	border: 0px solid transparent;
 }
 .wording{
 	margin-top: 30px;	
