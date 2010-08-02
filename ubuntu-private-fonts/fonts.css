@@ -1,0 +1,53 @@
+@font-face{ 
+	font-family: "UbuntuSans";
+	src: url('UbuntuRegular.ttf');
+}
+@font-face{ 
+	font-family: "UbuntuSansBold";
+	src: url('UbuntuBold.ttf');
+}
+body{
+	background-image: url('bg_dotted.png');
+	background-repeat: repeat-x repeat-y;
+	font-family: UbuntuSans;
+}
+b{
+	font-family: UbuntuSansBold;
+}
+
+.content{
+	width: 50%;
+	margin: 0 auto;
+	height: 500px;
+	background-color: white;	
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px #aaa;
+}
+.header{
+	text-align: center;
+	font-size: 48px;
+	margin-top: 20px;
+	padding: 5px;
+	*background-color: #DAD7D3;
+	background: #DD4814  -webkit-gradient(linear,left bottom,left top,color-stop(1, rgb(221,74,20)),color-stop(0, rgb(189,57,17)));
+	background-repeat: repeat-x;
+	color: white;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+}
+.main{
+	width: 400px;
+	margin: 100px auto 0px  auto;
+	color: #aaa;
+	text-align: center;
+}
+
+.img2{
+	margin-left: 40px;
+}
+.wording{
+	margin-top: 30px;	
+	color: #aaa;
+	font-size: 12px;
+	text-align: center;
+}
